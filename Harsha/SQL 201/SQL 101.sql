@@ -1,0 +1,106 @@
+
+ 
+ 
+1
+SELECT
+  acquirer_category_code,
+  avg(cast(cast(acquired_at as date) -  cast(founded_at as date) as int)/30)
+FROM
+  tutorial.crunchbase_acquisitions A
+  JOIN tutorial.crunchbase_companies C ON A.acquirer_name = C.name
+GROUP BY
+  acquirer_category_code
+  
+  
+  
+ 2
+ select acquired_quarter , count(acquirer_name) as no_of_acquired_companies
+from crunchbase.acquisitions
+group by acquired_quarter
+order by 1 desc
+
+
+3
+
+
+
+select company_category_code,funded_quarter,AVG(raised_amount_usd) as average_raised_amount  from tutorial.crunchbase_investments 
+where raised_amount_usd IS NOT NULL
+group by company_category_code,funded_quarter
+order by 1,2
+
+
+4
+
+select investor_name, SUM(raised_amount_usd) from tutorial.crunchbase_investments 
+where raised_amount_usd is not null 
+group by investor_name 
+order by 2 desc,1
+
+
+5
+
+select funding_round_type,funded_quarter, AVG(raised_amount_usd) from tutorial.crunchbase_investments 
+where raised_amount_usd is not null 
+group by funding_round_type,funded_quarter
+order by 3 DESC
+
+
+6
+
+
+select A.company_name from 
+(SELECT
+  company_name,investor_country_code,
+  lead(investor_country_code) over(
+    ORDER BY
+      funded_at 
+  ) AS next_investor_company
+FROM
+  tutorial.crunchbase_investments
+ ) A
+where A.next_investor_company = 'GBR' and investor_country_code='JPN'
+
+
+
+7.
+
+select category_code, AVG(funding_total_usd) as average_funds_raised from tutorial.crunchbase_companies 
+where status='operating' and funding_total_usd IS NOT NULL
+group by category_code 
+order by 2 desc limit 1
+
+
+8
+
+SELECT
+  category_code,
+  (
+    COUNT(
+      CASE
+        WHEN (
+          cast(
+            date_Part('year', cast(first_funding_at AS date)) - date_part('year', cast(founded_at AS date)) AS int
+          )
+        ) <= 3 THEN TRUE
+        ELSE NULL
+      END
+    ) * 100
+  ) / count(*) AS percentage_of_companies_which_received_funding_in_less_than_3years
+FROM
+  tutorial.crunchbase_companies
+GROUP BY
+  category_code
+ORDER BY
+  2 DESC
+
+
+
+9
+
+select now() - cast( last_funding_at as timestamp) as year from  tutorial.crunchbase_companies
+
+
+
+  
+  

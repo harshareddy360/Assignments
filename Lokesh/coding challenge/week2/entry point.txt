@@ -1,0 +1,36 @@
+Best entry point for: 2018-10-23 00:00:00 BHARTIARTL.NS
+Best exit point for: 2021-11-25 00:00:00 BHARTIARTL.NS
+Expected profit for: 179328.82 BHARTIARTL.NS
+Best entry point for: 2020-05-27 00:00:00 SBIN.NS
+Best exit point for: 2021-11-04 00:00:00 SBIN.NS
+Expected profit for: 231601.20 SBIN.NS
+Best entry point for: 2020-05-27 00:00:00 DRREDDY.NS
+Best exit point for: 2021-11-04 00:00:00 DRREDDY.NS
+Expected profit for: 231601.20 DRREDDY.NS
+Best entry point for: 2015-03-12 00:00:00 GSPL.NS
+Best exit point for: 2021-08-20 00:00:00 GSPL.NS
+Expected profit for: 235313.86 GSPL.NS
+Best entry point for: 2015-07-29 00:00:00 JSWSTEEL.NS
+Best exit point for: 2021-08-05 00:00:00 JSWSTEEL.NS
+Expected profit for: 795503.64 JSWSTEEL.NS
+Best entry point for: 2020-05-07 00:00:00 JSWENERGY.BO
+Best exit point for: 2021-10-13 00:00:00 JSWENERGY.BO
+Expected profit for: 943682.43 JSWENERGY.BO
+Best entry point for: 2020-05-07 00:00:00 RELIANCE.NS
+Best exit point for: 2021-10-13 00:00:00 RELIANCE.NS
+Expected profit for: 943682.43 RELIANCE.NS
+Best entry point for: 2020-05-07 00:00:00 YESBANK.NS
+Best exit point for: 2021-10-13 00:00:00 YESBANK.NS
+Expected profit for: 943682.43 YESBANK.NS
+Best entry point for: 2020-05-07 00:00:00 TATAMOTORS.NS
+Best exit point for: 2021-10-13 00:00:00 TATAMOTORS.NS
+Expected profit for: 943682.43 TATAMOTORS.NS
+Best entry point for: 2019-10-18 00:00:00 LAURUSLABS.NS
+Best exit point for: 2021-08-12 00:00:00 LAURUSLABS.NS
+Expected profit for: 984007.87 LAURUSLABS.NS
+Best entry point for: 2019-10-18 00:00:00 NTPC.NS
+Best exit point for: 2021-08-12 00:00:00 NTPC.NS
+Expected profit for: 984007.87 NTPC.NS
+Best entry point for: 2019-10-18 00:00:00 SAIL.BO
+Best exit point for: 2021-08-12 00:00:00 SAIL.BO
+Expected profit for: 984007.87 SAIL.BO

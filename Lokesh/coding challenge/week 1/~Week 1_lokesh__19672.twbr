@@ -1,0 +1,1882 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='archive (2) (Book1)' inline='true' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Book1' name='excel-direct.0lbhn8b0zs5xo41aazajs14vjwv1'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/coding challenge/Book1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0lbhn8b0zs5xo41aazajs14vjwv1' name='archive (2)' table='[&apos;archive (2)$&apos;]' type='table'>
+          <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Places' ordinal='0' />
+            <column datatype='string' name='week_type' ordinal='1' />
+            <column datatype='integer' name='Column1' ordinal='2' />
+            <column datatype='real' name='realSum' ordinal='3' />
+            <column datatype='string' name='room_type' ordinal='4' />
+            <column datatype='boolean' name='room_shared' ordinal='5' />
+            <column datatype='boolean' name='room_private' ordinal='6' />
+            <column datatype='integer' name='person_capacity' ordinal='7' />
+            <column datatype='boolean' name='host_is_superhost' ordinal='8' />
+            <column datatype='integer' name='multi' ordinal='9' />
+            <column datatype='integer' name='biz' ordinal='10' />
+            <column datatype='integer' name='cleanliness_rating' ordinal='11' />
+            <column datatype='integer' name='guest_satisfaction_overall' ordinal='12' />
+            <column datatype='integer' name='bedrooms' ordinal='13' />
+            <column datatype='real' name='dist' ordinal='14' />
+            <column datatype='real' name='metro_dist' ordinal='15' />
+            <column datatype='real' name='attr_index' ordinal='16' />
+            <column datatype='real' name='attr_index_norm' ordinal='17' />
+            <column datatype='real' name='rest_index' ordinal='18' />
+            <column datatype='real' name='rest_index_norm' ordinal='19' />
+            <column datatype='real' name='lng' ordinal='20' />
+            <column datatype='real' name='lat' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0lbhn8b0zs5xo41aazajs14vjwv1' name='archive (2)' table='[&apos;archive (2)$&apos;]' type='table'>
+          <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Places' ordinal='0' />
+            <column datatype='string' name='week_type' ordinal='1' />
+            <column datatype='integer' name='Column1' ordinal='2' />
+            <column datatype='real' name='realSum' ordinal='3' />
+            <column datatype='string' name='room_type' ordinal='4' />
+            <column datatype='boolean' name='room_shared' ordinal='5' />
+            <column datatype='boolean' name='room_private' ordinal='6' />
+            <column datatype='integer' name='person_capacity' ordinal='7' />
+            <column datatype='boolean' name='host_is_superhost' ordinal='8' />
+            <column datatype='integer' name='multi' ordinal='9' />
+            <column datatype='integer' name='biz' ordinal='10' />
+            <column datatype='integer' name='cleanliness_rating' ordinal='11' />
+            <column datatype='integer' name='guest_satisfaction_overall' ordinal='12' />
+            <column datatype='integer' name='bedrooms' ordinal='13' />
+            <column datatype='real' name='dist' ordinal='14' />
+            <column datatype='real' name='metro_dist' ordinal='15' />
+            <column datatype='real' name='attr_index' ordinal='16' />
+            <column datatype='real' name='attr_index_norm' ordinal='17' />
+            <column datatype='real' name='rest_index' ordinal='18' />
+            <column datatype='real' name='rest_index_norm' ordinal='19' />
+            <column datatype='real' name='lng' ordinal='20' />
+            <column datatype='real' name='lat' ordinal='21' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:V10001:no:A1:V10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Places</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Places]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>Places</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>week_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[week_type]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>week_type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Column1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Column1]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>Column1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>realSum</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[realSum]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>realSum</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[room_type]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>room_type</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_shared</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[room_shared]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>room_shared</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_private</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[room_private]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>room_private</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>person_capacity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[person_capacity]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>person_capacity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_is_superhost</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[host_is_superhost]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>host_is_superhost</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>multi</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[multi]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>multi</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>biz</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[biz]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>biz</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cleanliness_rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cleanliness_rating]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>cleanliness_rating</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guest_satisfaction_overall</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[guest_satisfaction_overall]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>guest_satisfaction_overall</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bedrooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bedrooms]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>bedrooms</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dist]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>dist</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metro_dist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[metro_dist]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>metro_dist</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attr_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[attr_index]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>attr_index</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attr_index_norm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[attr_index_norm]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>attr_index_norm</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rest_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rest_index]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>rest_index</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rest_index_norm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rest_index_norm]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>rest_index_norm</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lng]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>lng</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[archive (2)]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[archive (2)_E5C18032700948F4BCBF026B1D1CD225]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' datatype='integer' name='[Bedrooms (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[bedrooms]' peg='0' size='1.58' />
+      </column>
+      <column caption='Avgrage_cleanliness' datatype='real' name='[Calculation_1104789291914420224]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN([cleanliness_rating])' />
+      </column>
+      <column caption='Avgrage_guest_satisfaction' datatype='real' name='[Calculation_1104789291914952705]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MEDIAN([guest_satisfaction_overall])' />
+      </column>
+      <column caption='number of booking' datatype='integer' name='[Calculation_1104789292321083394]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([realSum])' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Metro Dist (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[metro_dist]' peg='0' size='0.19' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Person Capacity (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[person_capacity]' peg='0' size='0.865' />
+      </column>
+      <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Week Type (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[week_type]' new-bin='true'>
+          <bin default-name='true' value='&quot;weekdays&quot;'>
+            <value>&quot;weekdays&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='archive (2)' datatype='table' name='[__tableau_internal_object_id__].[archive (2)_E5C18032700948F4BCBF026B1D1CD225]' role='measure' type='quantitative' />
+      <column caption='Attr Index' datatype='real' name='[attr_index]' role='measure' type='quantitative' />
+      <column caption='Attr Index Norm' datatype='real' name='[attr_index_norm]' role='measure' type='quantitative' />
+      <column caption='Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='quantitative' />
+      <column caption='Biz' datatype='integer' name='[biz]' role='measure' type='quantitative' />
+      <column caption='Cleanliness Rating' datatype='integer' name='[cleanliness_rating]' role='measure' type='quantitative' />
+      <column caption='Dist' datatype='real' name='[dist]' role='measure' type='quantitative' />
+      <column caption='Guest Satisfaction Overall' datatype='integer' name='[guest_satisfaction_overall]' role='measure' type='quantitative' />
+      <column caption='Host Is Superhost' datatype='boolean' name='[host_is_superhost]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Lng' datatype='real' name='[lng]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Metro Dist' datatype='real' name='[metro_dist]' role='measure' type='quantitative' />
+      <column caption='Multi' datatype='integer' name='[multi]' role='measure' type='quantitative' />
+      <column caption='Person Capacity' datatype='integer' name='[person_capacity]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+      <column caption='Rest Index' datatype='real' name='[rest_index]' role='measure' type='quantitative' />
+      <column caption='Rest Index Norm' datatype='real' name='[rest_index_norm]' role='measure' type='quantitative' />
+      <column caption='Room Private' datatype='boolean' name='[room_private]' role='dimension' type='nominal' />
+      <column caption='Room Shared' datatype='boolean' name='[room_shared]' role='dimension' type='nominal' />
+      <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+      <column caption='Week Type' datatype='string' name='[week_type]' role='dimension' type='nominal' />
+      <column-instance column='[cleanliness_rating]' derivation='Avg' name='[avg:cleanliness_rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[dist]' derivation='Avg' name='[avg:dist:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[guest_satisfaction_overall]' derivation='Avg' name='[avg:guest_satisfaction_overall:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[realSum]' derivation='Avg' name='[avg:realSum:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[dist]' derivation='Count' name='[cnt:dist:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[realSum]' derivation='Count' name='[cnt:realSum:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[dist]' derivation='CountD' name='[ctd:dist:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[realSum]' derivation='CountD' name='[ctd:realSum:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cleanliness_rating]' derivation='Median' name='[med:cleanliness_rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[guest_satisfaction_overall]' derivation='Median' name='[med:guest_satisfaction_overall:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Places]' derivation='None' name='[none:Places:nk]' pivot='key' type='nominal' />
+      <column-instance column='[host_is_superhost]' derivation='None' name='[none:host_is_superhost:nk]' pivot='key' type='nominal' />
+      <column-instance column='[week_type]' derivation='None' name='[none:week_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[cleanliness_rating]' derivation='Sum' name='[sum:cleanliness_rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[dist]' derivation='Sum' name='[sum:dist:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[guest_satisfaction_overall]' derivation='Sum' name='[sum:guest_satisfaction_overall:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[realSum]' derivation='Sum' name='[sum:realSum:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1104789291914420224]' derivation='User' name='[usr:Calculation_1104789291914420224:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1104789291914952705]' derivation='User' name='[usr:Calculation_1104789291914952705:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1104789292321083394]' derivation='User' name='[usr:Calculation_1104789292321083394:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[dist]' derivation='Var' name='[var:dist:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Places)' hidden='true' name='[Action (Places)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Places]' />
+        </groupfilter>
+      </group>
+      <group caption='Set 1' name='[Set 1]' name-style='unqualified' user:ui-builder='lasso-group'>
+        <groupfilter function='reorder-dimensionality'>
+          <groupfilter function='crossjoin'>
+            <groupfilter function='member' level='[Week Type (group)]' member='&quot;weekends&quot;' />
+            <groupfilter function='union'>
+              <groupfilter function='member' level='[Places]' member='&quot;amsterdam&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;athens&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;barcelona&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;berlin&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;budapest&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;lisbon&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;london&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;paris&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;rome&quot;' />
+              <groupfilter function='member' level='[Places]' member='&quot;vienna&quot;' />
+            </groupfilter>
+          </groupfilter>
+          <order>
+            <hierarchy name='[Places]' />
+            <hierarchy name='[Week Type (group)]' />
+          </order>
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Places:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;amsterdam&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;budapest&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;berlin&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;rome&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;london&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;vienna&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;barcelona&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;lisbon&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;athens&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;paris&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:week_type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;weekdays&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;weekends&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#0000ff'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:cleanliness_rating:qk]&quot;</bucket>
+            </map>
+            <map to='#00aaff'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789291914420224:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789292321083394:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:guest_satisfaction_overall:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:guest_satisfaction_overall:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:guest_satisfaction_overall:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:dist:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[cnt:dist:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[ctd:dist:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:dist:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[var:dist:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[cnt:realSum:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[ctd:realSum:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:realSum:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:cleanliness_rating:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:cleanliness_rating:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789291914952705:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:Places:nk]' type='shape'>
+            <map to='asterisk'>
+              <bucket>&quot;amsterdam&quot;</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>&quot;athens&quot;</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>&quot;berlin&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;barcelona&quot;</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>&quot;paris&quot;</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>&quot;budapest&quot;</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>&quot;london&quot;</bucket>
+            </map>
+            <map to='square'>
+              <bucket>&quot;rome&quot;</bucket>
+            </map>
+            <map to='times'>
+              <bucket>&quot;vienna&quot;</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>&quot;lisbon&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:host_is_superhost:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>false</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>true</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Week Type (group)]' type='palette'>
+            <map to='#0051f3'>
+              <bucket>&quot;weekends&quot;</bucket>
+            </map>
+            <map to='#55aaff'>
+              <bucket>&quot;weekdays&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>%null%</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Places' />
+        <field-sort-custom-order field='week_type' />
+        <field-sort-custom-order field='Column1' />
+        <field-sort-custom-order field='realSum' />
+        <field-sort-custom-order field='room_type' />
+        <field-sort-custom-order field='room_shared' />
+        <field-sort-custom-order field='room_private' />
+        <field-sort-custom-order field='person_capacity' />
+        <field-sort-custom-order field='host_is_superhost' />
+        <field-sort-custom-order field='multi' />
+        <field-sort-custom-order field='biz' />
+        <field-sort-custom-order field='cleanliness_rating' />
+        <field-sort-custom-order field='Calculation_1104789291914420224' />
+        <field-sort-custom-order field='guest_satisfaction_overall' />
+        <field-sort-custom-order field='Calculation_1104789291914952705' />
+        <field-sort-custom-order field='bedrooms' />
+        <field-sort-custom-order field='dist' />
+        <field-sort-custom-order field='metro_dist' />
+        <field-sort-custom-order field='attr_index' />
+        <field-sort-custom-order field='Calculation_1104789292321083394' />
+        <field-sort-custom-order field='attr_index_norm' />
+        <field-sort-custom-order field='rest_index' />
+        <field-sort-custom-order field='rest_index_norm' />
+        <field-sort-custom-order field='lng' />
+        <field-sort-custom-order field='lat' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='archive (2)' id='archive (2)_E5C18032700948F4BCBF026B1D1CD225'>
+            <properties context=''>
+              <relation connection='excel-direct.0lbhn8b0zs5xo41aazajs14vjwv1' name='archive (2)' table='[&apos;archive (2)$&apos;]' type='table'>
+                <columns gridOrigin='A1:V10001:no:A1:V10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Places' ordinal='0' />
+                  <column datatype='string' name='week_type' ordinal='1' />
+                  <column datatype='integer' name='Column1' ordinal='2' />
+                  <column datatype='real' name='realSum' ordinal='3' />
+                  <column datatype='string' name='room_type' ordinal='4' />
+                  <column datatype='boolean' name='room_shared' ordinal='5' />
+                  <column datatype='boolean' name='room_private' ordinal='6' />
+                  <column datatype='integer' name='person_capacity' ordinal='7' />
+                  <column datatype='boolean' name='host_is_superhost' ordinal='8' />
+                  <column datatype='integer' name='multi' ordinal='9' />
+                  <column datatype='integer' name='biz' ordinal='10' />
+                  <column datatype='integer' name='cleanliness_rating' ordinal='11' />
+                  <column datatype='integer' name='guest_satisfaction_overall' ordinal='12' />
+                  <column datatype='integer' name='bedrooms' ordinal='13' />
+                  <column datatype='real' name='dist' ordinal='14' />
+                  <column datatype='real' name='metro_dist' ordinal='15' />
+                  <column datatype='real' name='attr_index' ordinal='16' />
+                  <column datatype='real' name='attr_index_norm' ordinal='17' />
+                  <column datatype='real' name='rest_index' ordinal='18' />
+                  <column datatype='real' name='rest_index_norm' ordinal='19' />
+                  <column datatype='real' name='lng' ordinal='20' />
+                  <column datatype='real' name='lat' ordinal='21' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Avrage Real Sum based on the city name and metro distance </run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column-instance column='[realSum]' derivation='Avg' name='[avg:realSum:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[metro_dist]' derivation='Median' name='[med:metro_dist:qk]' pivot='key' type='quantitative' />
+            <column caption='Metro Dist' datatype='real' name='[metro_dist]' role='measure' type='quantitative' />
+            <column-instance column='[Places]' derivation='None' name='[none:Places:nk]' pivot='key' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='468' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' value='#ddebf0' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:metro_dist:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dadaf2</color>
+                <color>#c3c3f3</color>
+                <color>#ababf5</color>
+                <color>#9393f6</color>
+                <color>#7c7cf8</color>
+                <color>#6363f9</color>
+                <color>#4b4bfa</color>
+                <color>#3232fc</color>
+                <color>#1919fd</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' />
+              <text column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]' />
+              <color column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:metro_dist:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6F4F7F2F-45F2-4E92-923F-5B8580929137}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Weekday V/S weekend </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Week Type (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[week_type]' new-bin='true'>
+                <bin default-name='true' value='&quot;weekdays&quot;'>
+                  <value>&quot;weekdays&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column-instance column='[realSum]' derivation='Avg' name='[avg:realSum:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Places]' derivation='None' name='[none:Places:nk]' pivot='key' type='nominal' />
+            <column-instance column='[week_type]' derivation='None' name='[none:week_type:nk]' pivot='key' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+            <column caption='Week Type' datatype='string' name='[week_type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]'>
+            <groupfilter function='level-members' level='[Places]' user:ui-action-filter='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;amsterdam&quot;</bucket>
+              <bucket>&quot;paris&quot;</bucket>
+              <bucket>&quot;london&quot;</bucket>
+              <bucket>&quot;barcelona&quot;</bucket>
+              <bucket>&quot;berlin&quot;</bucket>
+              <bucket>&quot;vienna&quot;</bucket>
+              <bucket>&quot;lisbon&quot;</bucket>
+              <bucket>&quot;rome&quot;</bucket>
+              <bucket>&quot;budapest&quot;</bucket>
+              <bucket>&quot;athens&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:week_type:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' value='24' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Week Type (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='357' />
+                <format attr='maxwidth' value='357' />
+                <format attr='minheight' value='400' />
+                <format attr='maxheight' value='400' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk] / [federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:week_type:nk])</rows>
+        <cols>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]</cols>
+      </table>
+      <simple-id uuid='{0DA89CCF-E9E2-4E36-AA41-9547FA869E9F}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Real Sum based on the Determinants</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column caption='Avgrage_cleanliness' datatype='real' name='[Calculation_1104789291914420224]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MEDIAN([cleanliness_rating])' />
+            </column>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column caption='Cleanliness Rating' datatype='integer' name='[cleanliness_rating]' role='measure' type='quantitative' />
+            <column caption='Guest Satisfaction Overall' datatype='integer' name='[guest_satisfaction_overall]' role='measure' type='quantitative' />
+            <column-instance column='[cleanliness_rating]' derivation='Median' name='[med:cleanliness_rating:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[guest_satisfaction_overall]' derivation='Median' name='[med:guest_satisfaction_overall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Places]' derivation='None' name='[none:Places:nk]' pivot='key' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+            <column-instance column='[realSum]' derivation='Sum' name='[sum:realSum:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1104789291914420224]' derivation='User' name='[usr:Calculation_1104789291914420224:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789291914420224:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:realSum:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]'>
+            <groupfilter function='level-members' level='[Places]' user:ui-action-filter='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:realSum:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[:Measure Names]</column>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:realSum:qk]' field-type='quantitative' max='5771124.0966696637' min='-2263934.930015516' range-type='fixed' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789291914420224:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789291914420224:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dadaf2</color>
+                <color>#c3c3f3</color>
+                <color>#ababf5</color>
+                <color>#9393f6</color>
+                <color>#7c7cf8</color>
+                <color>#6363f9</color>
+                <color>#4b4bfa</color>
+                <color>#3232fc</color>
+                <color>#1919fd</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:cleanliness_rating:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dadaf2</color>
+                <color>#c3c3f3</color>
+                <color>#ababf5</color>
+                <color>#9393f6</color>
+                <color>#7c7cf8</color>
+                <color>#6363f9</color>
+                <color>#4b4bfa</color>
+                <color>#3232fc</color>
+                <color>#1919fd</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:guest_satisfaction_overall:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dadaf2</color>
+                <color>#c3c3f3</color>
+                <color>#ababf5</color>
+                <color>#9393f6</color>
+                <color>#7c7cf8</color>
+                <color>#6363f9</color>
+                <color>#4b4bfa</color>
+                <color>#3232fc</color>
+                <color>#1919fd</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:guest_satisfaction_overall:qk]' />
+              <text column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:cleanliness_rating:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]</rows>
+        <cols>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[sum:realSum:qk]</cols>
+      </table>
+      <simple-id uuid='{5EAA90AB-7F6D-4398-9B6F-DEAF13D07CB2}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Real sum based on the room types </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column-instance column='[realSum]' derivation='Avg' name='[avg:realSum:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Places]' derivation='None' name='[none:Places:nk]' pivot='key' type='nominal' />
+            <column-instance column='[room_private]' derivation='None' name='[none:room_private:nk]' pivot='key' type='nominal' />
+            <column-instance column='[room_shared]' derivation='None' name='[none:room_shared:nk]' pivot='key' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+            <column caption='Room Private' datatype='boolean' name='[room_private]' role='dimension' type='nominal' />
+            <column caption='Room Shared' datatype='boolean' name='[room_shared]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]'>
+            <groupfilter function='level-members' level='[Places]' user:ui-action-filter='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' data-class='subtotal' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' value='C2057%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dadaf2</color>
+                <color>#c3c3f3</color>
+                <color>#ababf5</color>
+                <color>#9393f6</color>
+                <color>#7c7cf8</color>
+                <color>#6363f9</color>
+                <color>#4b4bfa</color>
+                <color>#3232fc</color>
+                <color>#1919fd</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' />
+              <text column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' />
+              <lod column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:room_private:nk]' />
+              <lod column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:room_shared:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]</rows>
+        <cols>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]</cols>
+      </table>
+      <simple-id uuid='{68D5133E-99B5-4BC5-A735-2A27573FAA70}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Person Capacity and average Bedrooms </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column aggregation='None' datatype='integer' name='[Person Capacity (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[person_capacity]' peg='0' size='0.865' />
+            </column>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column-instance column='[bedrooms]' derivation='Avg' name='[avg:bedrooms:qk]' pivot='key' type='quantitative' />
+            <column caption='Bedrooms' datatype='integer' name='[bedrooms]' role='measure' type='quantitative' />
+            <column-instance column='[person_capacity]' derivation='Count' name='[cnt:person_capacity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Person Capacity (bin)]' derivation='None' name='[none:Person Capacity (bin):qk]' pivot='key' type='quantitative' />
+            <column caption='Person Capacity' datatype='integer' name='[person_capacity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]'>
+            <groupfilter function='level-members' level='[Places]' user:ui-action-filter='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <text column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:bedrooms:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#0000ff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[cnt:person_capacity:qk]</rows>
+        <cols>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Person Capacity (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Person Capacity (bin):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{27BE3C3F-DD72-4A38-B7C3-4090B5CE6263}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Number of bookings</run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column caption='number of booking' datatype='integer' name='[Calculation_1104789292321083394]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([realSum])' />
+            </column>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column-instance column='[realSum]' derivation='Avg' name='[avg:realSum:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Places]' derivation='None' name='[none:Places:nk]' pivot='key' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1104789292321083394]' derivation='User' name='[usr:Calculation_1104789292321083394:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]'>
+            <groupfilter function='level-members' level='[Places]' user:ui-action-filter='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='486' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dadaf2</color>
+                <color>#c3c3f3</color>
+                <color>#ababf5</color>
+                <color>#9393f6</color>
+                <color>#7c7cf8</color>
+                <color>#6363f9</color>
+                <color>#4b4bfa</color>
+                <color>#3232fc</color>
+                <color>#1919fd</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' />
+              <size column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[usr:Calculation_1104789292321083394:qk]' />
+              <text column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[none:Places:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{77211101-717F-4B63-85D5-A9B1724CD3AF}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Total Number Of Booking</run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0000ff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{61DE18F8-5DBA-4D7A-B24E-B573304AAC77}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>Total booking</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='archive (2) (Book1)' name='federated.1o7ilpx1jz5num13gl2jh1nzgj7c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1o7ilpx1jz5num13gl2jh1nzgj7c'>
+            <column datatype='string' name='[Places]' role='dimension' type='nominal' />
+            <column-instance column='[realSum]' derivation='Count' name='[cnt:realSum:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0.00;(&quot;$&quot;#,##0.00)' name='[realSum]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]'>
+            <groupfilter function='level-members' level='[Places]' user:ui-action-filter='[Action1_36E5DA225D8C46C7A71411E66D31CAE5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Action (Places)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#0000ff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#0000ff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[cnt:realSum:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ffffff'>&lt;</run>
+                <run fontcolor='#ffffff'>[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[cnt:realSum:qk]</run>
+                <run fontcolor='#ffffff'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6D1A570B-F45A-4112-82FD-8F04CF36DD5D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='88250' id='30' param='vert' type-v2='layout-flow' w='39500' x='800' y='10750'>
+            <zone h='88250' id='22' type-v2='layout-basic' w='39500' x='800' y='10750'>
+              <zone h='88250' id='7' param='horz' type-v2='layout-flow' w='39500' x='800' y='10750'>
+                <zone fixed-size='617' h='88250' id='64' is-fixed='true' type-v2='layout-basic' w='39500' x='800' y='10750'>
+                  <zone h='88250' id='79' is-fixed='true' type-v2='layout-basic' w='39500' x='800' y='10750'>
+                    <zone h='88250' id='6' param='vert' type-v2='layout-flow' w='39500' x='800' y='10750'>
+                      <zone fixed-size='28' h='4500' id='8' is-fixed='true' name='Sheet 1' pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:metro_dist:qk]' type-v2='color' w='39500' x='800' y='10750'>
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='253' h='32625' id='3' is-fixed='true' name='Sheet 1' w='39500' x='800' y='15250'>
+                        <layout-cache type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                      <zone fixed-size='324' h='41500' id='86' is-fixed='true' name='Sheet 6' w='39500' x='800' y='47875'>
+                        <layout-cache type-h='fixed' type-w='fixed' />
+                        <zone-style>
+                          <format attr='border-color' value='#000000' />
+                          <format attr='border-style' value='none' />
+                          <format attr='border-width' value='0' />
+                          <format attr='margin' value='4' />
+                        </zone-style>
+                      </zone>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='9750' id='75' name='Sheet 8' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='43000' id='90' name='Sheet 2' w='35200' x='64000' y='10750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='41250' id='92' name='Sheet 4' w='35200' x='64000' y='57750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='42750' id='94' name='Sheet 5' w='23700' x='40300' y='10750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='41250' id='95' name='Sheet 3' w='23700' x='40300' y='57750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='4000' id='93' name='Sheet 4' pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' type-v2='color' w='35200' x='64000' y='53750'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='4250' id='96' name='Sheet 3' pane-specification-id='3' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:guest_satisfaction_overall:qk]' type-v2='color' w='23700' x='40300' y='53500'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2000' minheight='2000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='121' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='120' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='70' h='9750' id='75' is-fixed='true' name='Sheet 8' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42750' id='94' is-fixed='true' name='Sheet 5' w='23700' x='40300' y='10750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43000' id='90' is-fixed='true' name='Sheet 2' w='35200' x='64000' y='10750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='253' h='32625' id='3' is-fixed='true' name='Sheet 1' w='39500' x='800' y='15250'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='28' h='4500' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:metro_dist:qk]' type-v2='color' w='39500' x='800' y='10750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41500' id='86' is-fixed='true' name='Sheet 6' w='39500' x='800' y='47875'>
+                  <layout-cache type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41250' id='95' is-fixed='true' name='Sheet 3' w='23700' x='40300' y='57750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4250' id='96' name='Sheet 3' pane-specification-id='3' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:guest_satisfaction_overall:qk]' type-v2='color' w='23700' x='40300' y='53500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41250' id='92' is-fixed='true' name='Sheet 4' w='35200' x='64000' y='57750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4000' id='93' name='Sheet 4' pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' type-v2='color' w='35200' x='64000' y='53750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{082F7802-D4B7-49D9-BA7F-FC8724075D26}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:metro_dist:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{22606298-6BA0-4BB2-8566-F05598566248}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[Week Type (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{3E3C158F-5E06-4846-97CA-D3ACE6681AA1}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='73'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[med:guest_satisfaction_overall:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{F24FC138-14E9-47D8-BC5E-2B17C5356C95}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6759D2A1-BB66-4A47-86E7-CB1385DED5AC}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{012E8415-7EBD-4FF8-B056-35B76AC40F62}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1o7ilpx1jz5num13gl2jh1nzgj7c].[avg:realSum:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E53B4A69-D6E1-4543-AA2E-8ABF52BD2EE9}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3' />
+        <viewpoint name='Sheet 4' />
+        <viewpoint name='Sheet 5'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6' />
+        <viewpoint name='Sheet 8'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{464ED851-77E4-4E4B-91B3-3406DB01E916}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='151'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='35'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7034A319-3176-4ABB-A597-1AAF5B7AF9C8}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{957D51CB-63AC-4A0A-B224-9E3F249FD011}' />
+    </window>
+  </windows>
+</workbook>
